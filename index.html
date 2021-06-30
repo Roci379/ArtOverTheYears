@@ -59,25 +59,24 @@
 			</div>
 		</div>
 		<div id = "divImgBar" class = "bloque">
-			<div id =  "divImg">
+			<div id =  "divImg" class="obras">
 					<p id = "titulo"></p>
 					<img id = "ampliado" class = "mediana">
 						<p id ="txtImagen">Click any point to get info about artists</p>
 						</img>
 					<p id = "descripcion" class = "tipoDesc"></p>
 			</div>
-			<div id = "divImg">
-			
-			<p id = "tituloBarras"> Percentage of artworks by: 
-			<select name="selectBar" width = 30 height = 10  margin-left: 20 onchange = "barras();">
-			   <option id = "seleccion1" value="1"selected =true>Genre</option> 
-			   <option id = "seleccion2" value="2" >Nation</option> 
-			</select>
-			</p>
+			<div id = "divBar" class="barrasgraph">
+				<p id = "tituloBarras"> Percentage of artworks by: 
+				<select name="selectBar" width = 30 height = 10  margin-left: 20 onchange = "barras();">
+				   <option id = "seleccion1" value="1"selected =true>Genre</option> 
+				   <option id = "seleccion2" value="2" >Nation</option> 
+				</select>
+				</p>
 			<svg id = "barras" onload = "barras();">
 			</svg>
-		</div>
-			
+			</div>
+		</div>	
 	</div>
 	
 
