@@ -955,6 +955,7 @@ var paisesJson = {"paises":[
 	
 ]};
 
+window.resizeTo(1536, 754);
 
 // Format coords by window
 /*
