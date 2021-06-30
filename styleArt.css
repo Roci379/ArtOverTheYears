@@ -6,14 +6,18 @@ html {
 body {
        height: 100%;
        width: 100%;
+       display:grid;
+       grid-template-areas: "mapa obras" "mapa grafico";
        }
 
 h1{
       text-align: center;
    }
+
 .centrado{
     text-align:center; 
 }
+
 .bloque {
   display: inline-block;
  }
@@ -27,6 +31,7 @@ h1{
 
 /* Zona izquierda de la visualización para el mapa y sus controles*/
 #divMapa{
+       grid-area: mapa;
        height: 100%;
        width: 66%;
       /*border: 1px solid black;*/
@@ -97,6 +102,14 @@ h1{
        /*border: 1px solid black;*/
        float: right;
        }
+
+.obras{
+       grid-area: obras;
+}
+
+.barrasgraph{
+       grid-area: grafico;
+}
 
 /* Zona destinada al gráfico de barras */
 #divBar {
