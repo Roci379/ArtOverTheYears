@@ -655,7 +655,7 @@ console.log(ancho);
 console.log("DATOS ALTO");
 console.log(alto);
 
-getCoordenadas(artistsJson);
+//getCoordenadas(artistsJson);
 
 
 var generosJson = {"generos":[
@@ -957,6 +957,7 @@ var paisesJson = {"paises":[
 
 
 // Format coords by window
+/*
 function getCoordenadas(artistsJson){
 	var l = Object.keys(artistsJson.artists).length;
 	for(i = 0; i<l; i++){
@@ -965,7 +966,7 @@ function getCoordenadas(artistsJson){
 	}
 
 	console.log(artistsJson);
-}
+}*/
 
 
 // Calculte total of artists by genre

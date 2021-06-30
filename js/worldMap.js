@@ -8,6 +8,7 @@ console.log(ancho);
 console.log("ALTO");
 console.log(alto);
 
+
 //getCoordenadas(artistsJson);
 
 var svg = d3.select("svg")
@@ -17,6 +18,11 @@ var svg = d3.select("svg")
 di = document.getElementById('mapa'),
 width = di.offsetWidth*0.7,
 height = di.offsetHeight;
+
+console.log("DIV MAPA ANCHO");
+console.log(document.getElementById("mapa").offsetWidth);
+console.log("DIV MAPA ALTO");
+console.log(document.getElementById("mapa").offsetHeight);
 
 
 var path = d3.geoPath();

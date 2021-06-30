@@ -35,8 +35,8 @@ h1{
 
 /* Zona destinada a situar el mapa sin sus controles*/
 #mapa{
-      height:95%;
-     width:85%;
+     height:701px;
+     width:854px;
      background-color: lightblue;
      border: 1px solid black;
      margin-left:7%;
