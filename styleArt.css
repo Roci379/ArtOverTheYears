@@ -1,37 +1,32 @@
 html {
        height: 100%;
        width: 100%;
-       }
+}
 
 body {
        height: 100%;
        width: 100%;
-       }
-
-h1{
-      text-align: center;
-   }
-.centrado{
-    text-align:center; 
 }
-.bloque {
-  display: inline-block;
- }
 
-#divGraf{
-       height: 100%;
-       width: 66%;
-      /*border: 1px solid black;*/
-     /* float: right;*/
-       }
+h1 {
+       text-align: center;
+       text-transform: capitalize; 
+       font-family: serif;
+       font-style: italic;
+}
+
 
 /* Zona izquierda de la visualización para el mapa y sus controles*/
 #divMapa{
        height: 100%;
        width: 66%;
       /*border: 1px solid black;*/
-     /* float: right;*/
-       }
+      /*float: right;*/
+}
+
+.bloque {
+  display: inline-block;
+ }
 
 /* Zona destinada a situar el mapa sin sus controles*/
 #mapa{
@@ -42,13 +37,15 @@ h1{
      margin-left:7%;
      margin-top:2%;
      overflow: hidden;
-     }
+}
 
 /* svg donde se dibujan los continentes */
 #grafico{
     height:100%;
     width:100%;
-   }
+}
+
+
 
 /* Tabla para los controles del tiempo sobre el mapa */
  #temptable{
@@ -56,6 +53,10 @@ h1{
     /*border:1px solid black; */
     width: 25%; 
     height:7%; 
+}
+
+.centrado{
+    text-align:center; 
 }
 
 /* Zona donde se muestra la fecha actual y donde se puede especificar una nueva */
@@ -69,18 +70,30 @@ h1{
    value: 1989;
 }
 
-/* Boton para pausar o reiniciar la visualización del mapa */
-#playpause{
-    width:30%;
-    height:30px;
-    background-image:url(play.png);
-}
-
 /* Botones Next y Back */
 .backnext{
    width:90%;
    height:30px;
 }
+
+/*
+#divGraf{
+       height: 100%;
+       width: 66%;
+      /*border: 1px solid black;*/
+     /* float: right;*/
+}
+*/
+
+
+/* Boton para pausar o reiniciar la visualización del mapa 
+    width:30%;
+    height:30px;
+    background-image:url(play.png);
+}
+*/
+
+
 
 /* Zona destinada a las imágenes de los cuadros y al gráfico de barras */
 #divImgBar {
@@ -88,7 +101,7 @@ h1{
        width: 33%;
        /*border: 1px solid black;*/
        float: right;
-       }
+}
 
 /* Zona destinada a las imágenes de los cuadros */
 #divImg {
@@ -96,28 +109,14 @@ h1{
        width: 100%;
        /*border: 1px solid black;*/
        float: right;
-       }
-
-/* Zona destinada al gráfico de barras */
-#divBar {
-       height: 50%;
-       width: 100%;
-      /* border: 1px solid black;*/
-       float: right;
-       }
-
-/* Párrafo título de imagen  */
-p.tipoImg{
-     text-align: center;
-     font-weight:bold; 
-     color: purple; 
-   }
+}
 
 /* Nombre del cuadro */
 #titulo{
-     text-align:center;
+    text-align:center;
     font-weight:bold;
 }
+
 
 #txtImagen{
    text-align:center;
@@ -130,14 +129,31 @@ p.tipoDesc{
    font-size: 11pt;
 }
 
+
 /* Zona destinada al gráfico de barras */
+#divBar {
+       height: 50%;
+       width: 100%;
+      /* border: 1px solid black;*/
+       float: right;
+}
+
+/* Párrafo título de imagen  */
+p.tipoImg{
+     text-align: center;
+     font-weight:bold; 
+     color: purple; 
+}
+
+
+/* Zona destinada al gráfico de barras 
 #divBar{
      height:50%;
      width: 33.33%;
      margin-left:66%;
-    float: right;
+     float: right;
 }
-
+*/
 
 /* Formato para el título del gráfico de barras */
 #tituloBarras{
@@ -150,7 +166,7 @@ p.tipoDesc{
 #barras{
      height: 100%;
      width: 100%; 
-    margin-top: 0px;
+     margin-top: 0px;
 }
 
 /* Herramienta para mostrar el texto al pasar el ratón por las barras */
@@ -181,6 +197,7 @@ p.tipoDesc{
 img.peque{
   width: 10%; height: 10%;
 }
+
 img.mediana{
   max-width: 60%;
   max-height: 60%; 
@@ -189,7 +206,6 @@ img.mediana{
   display:block;
  margin:auto;
 }
-
 
 img.grande{
   width: 200px; height: 200px;
