@@ -76,24 +76,6 @@ h1 {
    height:30px;
 }
 
-/*
-#divGraf{
-       height: 100%;
-       width: 66%;
-      /*border: 1px solid black;*/
-     /* float: right;*/
-}
-*/
-
-
-/* Boton para pausar o reiniciar la visualización del mapa 
-    width:30%;
-    height:30px;
-    background-image:url(play.png);
-}
-*/
-
-
 
 /* Zona destinada a las imágenes de los cuadros y al gráfico de barras */
 #divImgBar {
@@ -145,15 +127,6 @@ p.tipoImg{
      color: purple; 
 }
 
-
-/* Zona destinada al gráfico de barras 
-#divBar{
-     height:50%;
-     width: 33.33%;
-     margin-left:66%;
-     float: right;
-}
-*/
 
 /* Formato para el título del gráfico de barras */
 #tituloBarras{
