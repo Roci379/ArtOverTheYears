@@ -78,7 +78,7 @@ h1 {
 
 
 /* Zona destinada a las imágenes de los cuadros y al gráfico de barras */
-#divImgBar {
+#divImgBar{
        height: 100%;
        width: 33%;
        /*border: 1px solid black;*/
