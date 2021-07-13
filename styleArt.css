@@ -16,8 +16,15 @@ h1 {
 }
 
 
+.cuerpo{
+       display: grid; 
+       grid-template: "map imbr" "map imbr"
+}
+
+
 /* Zona izquierda de la visualización para el mapa y sus controles*/
 #divMapa{
+       grid-area: map;
        height: 100%;
        width: 66%;
       /*border: 1px solid black;*/
@@ -79,10 +86,21 @@ h1 {
 
 /* Zona destinada a las imágenes de los cuadros y al gráfico de barras */
 #divImgBar{
+       grid-area: imbr;
        height: 100%;
        width: 33%;
        /*border: 1px solid black;*/
        float: right;
+       display: grid; 
+       grid-template: "imag" "barras";
+}
+
+.imagenes{
+       grid-area: imag;
+}
+
+.barritas{
+       grid-area: barras;
 }
 
 /* Zona destinada a las imágenes de los cuadros */
