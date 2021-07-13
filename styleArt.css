@@ -93,6 +93,7 @@ h1 {
        float: right;
        display: grid; 
        grid-template: "imag" "barras";
+       align-items: center;
 }
 
 .imagenes{
