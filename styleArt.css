@@ -94,6 +94,7 @@ h1 {
        display: grid; 
        grid-template: "imag" "barras";
        align-items: center;
+       grid-template-rows: 1fr 1fr; 
 }
 
 .imagenes{
