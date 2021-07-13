@@ -26,7 +26,7 @@ h1 {
 #divMapa{
        grid-area: map;
        height: 100%;
-       width: 66%;
+       width: 100%;
       /*border: 1px solid black;*/
       /*float: right;*/
 }
@@ -88,7 +88,7 @@ h1 {
 #divImgBar{
        grid-area: imbr;
        height: 100%;
-       width: 33%;
+       width: 100%;
        /*border: 1px solid black;*/
        float: right;
        display: grid; 
@@ -105,7 +105,7 @@ h1 {
 
 /* Zona destinada a las imágenes de los cuadros */
 #divImg {
-       height: 50%;
+       height: 100%;
        width: 100%;
        /*border: 1px solid black;*/
        float: right;
@@ -132,7 +132,7 @@ p.tipoDesc{
 
 /* Zona destinada al gráfico de barras */
 #divBar {
-       height: 50%;
+       height: 100%;
        width: 100%;
       /* border: 1px solid black;*/
        float: right;
