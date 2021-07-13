@@ -24,8 +24,8 @@
 
 </head>
 <body>
- 	<h1>art over the years</h1>	
-	
+<h1>art over the years</h1>	
+<div class="cuerpo">	
 	<div id = "divMapa" class = "bloque">
 		<div id = "mapa">
 			<svg id = "grafico"></svg>
@@ -61,7 +61,7 @@
 	</div>
 	
 	<div id = "divImgBar" class = "bloque">
-		<div id =  "divImg">
+		<div id =  "divImg" class="imagenes">
 			<p id = "titulo"></p>
 				<img id = "ampliado" class = "mediana">
 				<p id ="txtImagen">Click any point to get info about artists</p>
@@ -69,7 +69,7 @@
 				<p id = "descripcion" class = "tipoDesc"></p>
 		</div>
 
-		<div id = "divImg">
+		<div id = "divImg" class="barritas">
 			<p id = "tituloBarras"> Percentage of artworks by: 
 			<select name="selectBar" width = 30 height = 10  margin-left: 20 onchange = "barras();">
 				<option id = "seleccion1" value="1"selected =true>Genre</option> 
@@ -81,7 +81,7 @@
 		</div>
 			
 	</div>
-	
+</div>	
 
 	
 	<script type="text/javascript">console.log(JSON.stringify(generosJson))</script>
